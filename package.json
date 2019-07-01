@@ -1,0 +1,24 @@
+{
+    "name": "koa-clapp-starter",
+    "version": "1.0.0",
+    "description": "starter for koa clapp",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --config ./nodemon.json"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "kcors": "^2.2.2",
+        "koa-compress": "^3.0.0",
+        "koa-etag": "^3.0.0",
+        "koa-helmet": "^4.2.0",
+        "koa-clapp": "git+ssh://git@github.com/benjpoirier/koa-clapp.git#master"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    },
+    "eslintIgnore": [
+        "node_modules"
+    ]
+}
